@@ -1,0 +1,133 @@
+
+  .top_container {
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 28px;
+    padding-bottom: 120px;
+  }
+  .title {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .matters{
+    margin-left: 15px;
+    margin-top: -11px;
+  }
+  .congrats_container {
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    align-items: center;
+  }
+  .congrats_emoji_container {
+    width: 60px;
+    height: 33px;
+  }
+   .text {
+    background-image: linear-gradient(45deg, #c203cc, #f2a21b);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    
+  
+  }
+  .congrats_emoji_container img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card {
+    box-shadow: 0px 4px 7px #dfdbdb;
+    height: 195px;
+    width: 90%;
+    background: white;
+    margin: auto;
+    position: relative;
+    top: -100px;
+    border-radius: 28px;
+    
+  }
+  .paytm_container{
+    height: 45px;
+    width: 100px;
+    margin: auto;
+    padding-top: 10px;
+    margin-bottom: 25px;
+  }
+  .paytm_container img {
+    height: 100%;
+    width: 100%;
+  }
+  .gift_card_container{  
+      display: flex;
+    justify-content: center;
+    font-size: 21px;
+    font-weight: 800;
+    position: relative;
+    left: 12px;
+  }
+  .gift_card_text{
+    position: relative;
+    top: -16px;
+  
+  }
+  .gift_text, .card_text,  .rupee_symbol , .rupee{
+    background-image: linear-gradient(45deg, #c300d4,#f1349e, #f2a21b);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-family: 'Fugaz One', cursive;
+  
+  }
+  .gift_text {
+    font-size: 35px;
+  }
+  .rupee{
+    font-size: 55px;
+  }
+  .rupee_symbol{
+    font-size: 20px;
+    font-weight: 900;
+    position: relative;
+    top: -26px;
+    background-image: linear-gradient(45deg, #c300d4 ,#c300d4);
+  }
+  .card_text {
+    position: relative;
+    top: 18px;
+    left: -16px;
+  }
+  .rupee_container{
+    position: relative;
+    left: -24px;
+  }
+
+  .card_border_top{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    right: -11px;
+    top: -11px;
+  }
+  .card_border_bottom{
+    position: absolute;
+    bottom: -13px;
+    width: 80px;
+    height: 80px;
+    left: -20px;
+  }
+  .card_border_top img , .card_border_bottom img{
+    height: 100%;
+    width: 100%;
+  }
+  @media only screen and (min-width: 600px) {
+    .card {
+  
+      width: 70%;
+    }
+  }

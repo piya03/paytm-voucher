@@ -1,0 +1,25 @@
+.close_icon{
+    background: red;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 5px;
+}
+.first_query img , .second_query img {
+    height: 30px;
+    width: 30px;
+}
+.first_query , .second_query , .third_query {
+    display: grid;
+    grid-template-columns: 10% 85%;
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.q1, .q2 , .q3{
+    font-weight: 600;
+}

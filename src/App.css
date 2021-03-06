@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background: #e8e5e578;
+
+}
+.App{
+  background:white;
+  height: 100vh;
+  max-width: 700px;
+  margin: auto;
+  overflow: auto;
+
+}
